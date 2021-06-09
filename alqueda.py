@@ -1,6 +1,7 @@
 import os, sys, time
 from time import sleep as timeout
 def restart_program():
+  os.system(' sudo apt install figlet -y ')
   os.system(" figlet Al Queda ")
 print  "Created By: Rebrithed-Reaperr"
 print  "Youtube	  : BiggyGh0st"
