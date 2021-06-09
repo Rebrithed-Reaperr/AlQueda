@@ -2,7 +2,7 @@ import os, sys, time
 from time import sleep as timeout
 def restart_program():
 	        python = sys.executable
-        os.execl(python, python, * sys.argv)
+        os.execl(' python, python, * sys.argv ')
         curdir = os.getcwd()
 os.system("clear")
 os.system("figlet Al Queda")
