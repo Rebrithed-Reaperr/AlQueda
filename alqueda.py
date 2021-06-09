@@ -1,8 +1,7 @@
 import os, sys, time
 from time import sleep as timeout
 def restart_program():
-  os.system(' sudo apt install figlet -y ')
-  os.system(" figlet Al Queda ")
+print  "Project Al Queda "
 print  "Created By: Rebrithed-Reaperr"
 print  "Youtube	  : BiggyGh0st"
 print  "Github    : https://github.com/Rebrithed-Reaperr"
@@ -18,3 +17,9 @@ print
 print  " [0]> Exit "
 print
 A = raw_input("AlQueda ==>> ")
+
+if A == "1" or A == "01":
+  os.system(' python2 ddos-attack.py ')
+  
+elif A == "2" or A == "02":
+  os.system(' python2 https/http attacks.py ')
