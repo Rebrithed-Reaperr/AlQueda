@@ -1,8 +1,7 @@
 import os, system, name, time
 from time import sleep as timeout
 def restart_program():
-os.system(' clear ')
-os.system("figlet Al Queda")
+  os.system("figlet Al Queda")
 print  "Created By: Rebrithed-Reaperr"
 print  "Youtube	  : BiggyGh0st"
 print  "Github    : https://github.com/Rebrithed-Reaperr"
