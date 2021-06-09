@@ -1,4 +1,4 @@
-import os, sys, time
+import os, system, name, time
 from time import sleep as timeout
 def restart_program():
 os.system(' clear ')
