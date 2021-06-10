@@ -26,3 +26,8 @@ elif cyber == '04' or cyber == '4':
 
 elif cyber == '00' or cyber == '0':
 	sys.exit()
+	
+else:
+	print "\n[!] ERROR : Wrong Input"
+	time.sleep(1)
+	restart_program()
