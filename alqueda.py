@@ -17,7 +17,7 @@ print
 print " [0]> Exit                    "
 A = raw_input(" AlQueda ==>> ")
 
-elif A == '1' or A == '01':
+if A == '1' or A == '01':
   os.system(' python2 ddos-attacks.py ')
 
 elif A == '2' or A == '02':
