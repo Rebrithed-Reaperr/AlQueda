@@ -30,7 +30,7 @@ elif A == '3' or A == '03':
 
 elif A == '4' or A == '04':
  os.system(' clear ')
- os.system(' python2 Instagrams.py ')
+ print " @pwn.doxgod @no_enough_data @re43p3r @cryp70n1cf4c3 @rxquestnomad @l_sinnxr_l @cybersploiitz @tjtechpro2cybersecurity "
 
 elif A == '0' or A == '00':
   sys.exit()
