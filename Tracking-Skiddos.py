@@ -2,7 +2,10 @@ import os, sys, time
 from time import sleep as timeout
 def restart_program():
 	os.system(' clear ')
-	os.system(' figlet Tracking-Skiddos')
+print "╔╦╗┬─┐┌─┐┌─┐┬┌─┬┌┐┌┌─┐   ╔═╗╦╔═┬┌┬┐┌┬┐┌─┐┌─┐ "
+print " ║ ├┬┘├─┤│  ├┴┐│││││ ┬───╚═╗╠╩╗│ ││ │││ │└─┐ "
+print " ╩ ┴└─┴ ┴└─┘┴ ┴┴┘└┘└─┘   ╚═╝╩ ╩┴─┴┘─┴┘└─┘└─┘ "
+print 
 print " [01]> track-ip													"
 print " [02]> ip-tracekr											"
 print " [03]> ip-tracer 										 "
