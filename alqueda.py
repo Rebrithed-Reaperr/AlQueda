@@ -3,6 +3,13 @@ from time import sleep as timeout
 def restart_program():
   os.system(' clear ')
   os.system(' figlet Al Queda ')
+print "                                             "
+print " ▄▄▄· ▄▄▌      .▄▄▄  ▄• ▄▌▄▄▄ .·▄▄▄▄   ▄▄▄·  "
+print "▐█ ▀█ ██•      ▐▀•▀█ █▪██▌▀▄.▀·██▪ ██ ▐█ ▀█  "
+print "▄█▀▀█ ██▪      █▌·.█▌█▌▐█▌▐▀▀▪▄▐█· ▐█▌▄█▀▀█  "
+print "▐█ ▪▐▌▐█▌▐▌    ▐█▪▄█·▐█▄█▌▐█▄▄▌██. ██ ▐█ ▪▐▌ "
+print " ▀  ▀ .▀▀▀     ·▀▀█.  ▀▀▀  ▀▀▀ ▀▀▀▀▀•  ▀  ▀  "
+print
 print "Created By: Rebrithed-Reaperr "
 print "YouTube: BiggyGh0st           "
 print "Github: Rebrithed-Reaperr     "
