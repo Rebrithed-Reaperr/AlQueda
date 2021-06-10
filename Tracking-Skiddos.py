@@ -27,6 +27,5 @@ elif rebirthed == '00' or rebirthed == '0':
 	sys.exit()
 	
 else:
-	     print "\nERROR: Wrong Input"
-      time.sleep(3)
+      print "\nERROR: Wrong Input"
       restart_program()
