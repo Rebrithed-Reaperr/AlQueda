@@ -2,7 +2,14 @@ import os, sys, time
 from time import sleep as timeout
 def restart_program():
 	os.system(' clear ')
-	os.system(' figlet Website-Attacks ')
+print "   ▄ ▄   ▄███▄   ███      ▄▄▄▄▄   ▄█    ▄▄▄▄▀ ▄███▄   ██     ▄▄▄▄▀ ▄▄▄▄▀ ██   ▄█▄    █  █▀  ▄▄▄▄▄    "
+print "  █   █  █▀   ▀  █  █    █     ▀▄ ██ ▀▀▀ █    █▀   ▀  █ █ ▀▀▀ █ ▀▀▀ █    █ █  █▀ ▀▄  █▄█   █     ▀▄  "
+print " █ ▄   █ ██▄▄    █ ▀ ▄ ▄  ▀▀▀▀▄   ██     █    ██▄▄    █▄▄█    █     █    █▄▄█ █   ▀  █▀▄ ▄  ▀▀▀▀▄    "
+print " █  █  █ █▄   ▄▀ █  ▄▀  ▀▄▄▄▄▀    ▐█    █     █▄   ▄▀ █  █   █     █     █  █ █▄  ▄▀ █  █ ▀▄▄▄▄▀     " 
+print "  █ █ █  ▀███▀   ███               ▐   ▀      ▀███▀      █  ▀     ▀         █ ▀███▀    █             " 
+print "    ▀ ▀                                                  █                  █          ▀             "  
+print "                                                      ▀                  ▀                           "
+print
 print " [01]> DDoS-Ripper    "
 print " [02]> Layer-7-Attack "
 print " [03]> httpflood      "
