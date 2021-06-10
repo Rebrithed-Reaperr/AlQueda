@@ -17,16 +17,20 @@ print " [0]> Exit                    "
 A = raw_input(" AlQueda ==>> ")
 
 if A == '1' or A == '01':
+  os.system(' clear ')
   os.system(' python2 DDoS-Attacks.py ')
 
 elif A == '2' or A == '02':
+  os.system(' clear ')
   os.system(' python2 Website-Attacks.py ')
 
 elif A == '3' or A == '03':
+  os.system(' clear ')
   os.system(' python2 Tracking-Skiddos.py ')
 
 elif A == '4' or A == '04':
-  os.system(' python2 Instagrams.py ')
+ os.system(' clear ')
+ os.system(' python2 Instagrams.py ')
 
 elif A == '0' or A == '00':
   sys.exit()
