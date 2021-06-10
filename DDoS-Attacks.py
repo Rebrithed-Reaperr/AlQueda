@@ -28,3 +28,7 @@ elif bhydra == '05' or bhydra == '5':
 	os.system(' cd Overload-DoS && chmod +x * && ./install-overload ')
 elif bhydra == '06' or bhydra == '6':
 	os.system(' git clone https://github.com/Ha3MrX/DDos-Attack && git clone https://github.com/epsylon/ufonet && git clone https://github.com/Taguar258/Raven-Storm && git clone https://github.com/Leeon123/CC-attack && git clone https://github.com/codingplanets/Overload-DoS ')
+else:
+	print "\n[!] ERROR : Wrong Input"
+	time.sleep(1)
+	restart_program()
