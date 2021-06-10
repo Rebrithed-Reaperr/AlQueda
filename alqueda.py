@@ -17,17 +17,22 @@ print
 print " [0]> Exit                    "
 A = raw_input(" AlQueda ==>> ")
 
-if A == '1' or A == '01':
+elif A == '1' or A == '01':
   os.system(' python2 ddos-attacks.py ')
-if A == '2' or A == '02':
+
+elif A == '2' or A == '02':
   os.system(' python2 website-attacks.py ')
-if A == '3' or A == '03':
+
+elif A == '3' or A == '03':
   os.system(' python2 tracking-skiddos.py ')
-if A == '4' or A == '04':
+
+elif A == '4' or A == '04':
   os.system(' python2 install.py ')
-if A == '5' or A == '05':
+
+elif A == '5' or A == '05':
   os.system(' python2 instagrams.py ')
-if A == '0' or A == '00':
+
+elif A == '0' or A == '00':
   sys.exit()
   
 else:
