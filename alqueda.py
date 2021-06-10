@@ -34,7 +34,7 @@ elif A == '4' or A == '04':
 
 elif A == '0' or A == '00':
   sys.exit()
-  
+  print " Sorry to see you leave so soon :( "
 else:
       print "\nERROR: Wrong Input"
       timeout(3)
