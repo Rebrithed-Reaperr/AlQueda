@@ -30,7 +30,7 @@ elif cyber == '04' or cyber == '4':
 
 elif cyber == '00' or cyber == '0':
 	sys.exit()
-	
+	print " Sorry to see you leave so soon :( "
 else:
 	print "\n[!] ERROR : Wrong Input"
 	time.sleep(1)
