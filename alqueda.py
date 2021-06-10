@@ -37,6 +37,6 @@ elif A == '0' or A == '00':
   sys.exit()
   
 else:
-      print "\nERROR: Wrong Input"
+      print (" \nERROR: Wrong Input ")
       timeout(3)
       restart_program()
