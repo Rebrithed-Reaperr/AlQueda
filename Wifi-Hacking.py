@@ -25,3 +25,4 @@ elif WiFi == '00' or WiFi == '0':
 	print " Adios come back sometime "
  time.sleep(2)
  sys.exit()
+	os.system(' python2 alqueda.py ')
