@@ -31,6 +31,7 @@ elif cyber == '04' or cyber == '4':
 elif cyber == '00' or cyber == '0':
 	sys.exit()
 	print " Sorry to see you leave so soon :( "
+	os.system(' python2 alqueda.py ')
 else:
 	print "\n[!] ERROR : Wrong Input"
 	time.sleep(1)
