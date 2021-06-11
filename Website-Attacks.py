@@ -29,8 +29,6 @@ elif cyber == '04' or cyber == '4':
 	os.system(' git clone https://github.com/palahsu/DDoS-Ripper && git clone https://github.com/MusH4ck007/Layer-7-Attack && git clone https://github.com/Leeon123/golang-httpflood && python2 Website-Attacks.py ')
 
 elif cyber == '00' or cyber == '0':
-	sys.exit()
-	print " Sorry to see you leave so soon :( "
 	os.system(' python2 alqueda.py ')
 else:
 	print "\n[!] ERROR : Wrong Input"
