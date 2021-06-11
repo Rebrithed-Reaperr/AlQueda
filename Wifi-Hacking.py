@@ -22,6 +22,6 @@ elif Wifi == '[03]' or Wifi == '3':
 elif Wifi == '[04]' or Wifi == '4':
 	os.system(' clear ')
 	os.system(' sudo apt install python3 aircrack-ng && git clone https://github.com/3xploitGuy/lazyaircrack && git clone https://github.com/ankit0183/Wifi-Hacking && git clone https://github.com/esc0rtd3w/wifi-hacker ')
-elif Wifi '[00]' or Wifi '0':
+elif Wifi == '[00]' or Wifi == '0':
 	os.system(' clear ')
 	os.system(' python2 alqueda.py ')
