@@ -27,3 +27,4 @@ elif Cam == '00' or Cam == '0':
 	os.system(' clear ')
 	print " Goodbye "
 	time.sleep(2)
+	os.system(' python2 alqueda.py ')
