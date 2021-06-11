@@ -23,6 +23,5 @@ elif WiFi == '03' or WiFi == '3':
 elif WiFi == '00' or WiFi == '0':
 	os.system(' clear ')
 	print " Adios come back sometime "
- time.sleep(2)
- sys.exit()
-	os.system(' python2 alqueda.py ')
+ 	time.sleep(2)
+ 	sys.exit()
