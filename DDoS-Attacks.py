@@ -34,8 +34,6 @@ elif bhydra == '06' or bhydra == '6':
 	os.system(' clear ')
 	os.system(' git clone https://github.com/Ha3MrX/DDos-Attack && git clone https://github.com/epsylon/ufonet && git clone https://github.com/Taguar258/Raven-Storm && git clone https://github.com/Leeon123/CC-attack && git clone https://github.com/codingplanets/Overload-DoS && python2 DDoS-Attacks.py')
 elif bhydra == '00' or bhydra == '0':
-	sys.exit()
-	print " Sorry to see you leave so soon :( "
 	os.system(' python2 alqueda.py ')
 else:
 	print "\n[!] ERROR : Wrong Input"
