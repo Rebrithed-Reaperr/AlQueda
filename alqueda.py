@@ -12,6 +12,8 @@ print " [1]> DDoS-Attacks            "
 print " [2]> Website-Attacks         "
 print " [3]> Tracking Skiddos        "
 print " [4]> Instagrams              "
+print " [5]> Wifi-Hacking            "
+print " [6]> Can-Hacking             "
 print
 print " [0]> Exit                    "
 A = raw_input(" AlQueda ==>> ")
@@ -33,8 +35,17 @@ elif A == '4' or A == '04':
  print " @pwn.doxgod @no_enough_data @re43p3r @cryp70n1cf4c3 @rxquestnomad @l_sinnxr_l @cybersploiitz @tjtechpro2cybersecurity "
 
 elif A == '0' or A == '00':
-  sys.exit()
+  time.sleep(2)
   print " Sorry to see you leave so soon :( "
+  sys.exit()
+
+elif A == '5' or A == '05':
+  os.system(' clear ')
+  os.system(' python2 Wifi-Hacking.py ')
+
+elif A == '6' or A == '06':
+  os.system(' clear ')
+  os.system(' python2 Cam-Hacking.py ')
 else:
       print "\nERROR: Wrong Input"
       timeout(3)
