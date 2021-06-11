@@ -25,6 +25,4 @@ elif Cam == '04' or Cam == '4':
 	os.system(' pip3 install requests colorama && git clone https://github.com/aktechunt3r/CamPhish && git clone https://github.com/Devil-Tigers/CamHack && git clone https://github.com/AngelSecurityTeam/Cam-Hackers ')
 elif Cam == '00' or Cam == '0':
 	os.system(' clear ')
-	print " Goodbye "
-	time.sleep(2)
 	os.system(' python2 alqueda.py ')
