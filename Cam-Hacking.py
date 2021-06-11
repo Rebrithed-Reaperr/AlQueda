@@ -22,7 +22,7 @@ elif Cam == '03' or Cam == '3':
 	os.system(' cd CanPhish && bash camphish.sh ')
 elif Cam == '04' or Cam == '4':
 	os.system(' clear ')
-	os.system(' pip3 install requests colorama php openssh wget && git clone https://github.com/aktechunt3r/CamPhish && git clone https://github.com/Devil-Tigers/CamHack && https://github.com/AngelSecurityTeam/Cam-Hackers ')
+	os.system(' pip3 install requests colorama && git clone https://github.com/aktechunt3r/CamPhish && git clone https://github.com/Devil-Tigers/CamHack && https://github.com/AngelSecurityTeam/Cam-Hackers ')
 elif Cam == '00' or Cam == '0':
 	os.system(' clear ')
 	print " Goodbye "
