@@ -23,8 +23,6 @@ elif rebirthed == '03' or rebirthed == '3':
         os.system(' git clone https://github.com/termuxhackers-id/SIGIT && git clone https://github.com/htr-tech/track-ip && git clone https://github.com/anonymousproo/IP-Tracker && git clone https://github.com/rajkumardusad/IP-Tracer && python2 Tracking-Skiddos.py ')
 
 elif rebirthed == '00' or rebirthed == '0':
-	sys.exit()
-	print " Sorry to see you leave so soon :( "
 	os.system(' python2 alqueda.py ')
 elif rebirthed == '04' or rebirthed == '4':
 	os.system(' clear ')
