@@ -2,12 +2,16 @@ import os, sys, time
 from time import sleep as timeout
 def restart_program():
 	os.system(' clear ')
-print " [01]> Wifi-Hacker  "
-print " [02]> Wifi-Hacking "
-print " [03]> lazyaircrack "
-print " [04]> Install 	   "
+print (" ╦ ╦┬╔═╗┬  ╦ ╦┌─┐┌─┐┬┌─┬┌┐┌┌─┐ ")
+print (" ║║║│╠╣ │  ╠═╣├─┤│  ├┴┐│││││ ┬ ")
+print (" ╚╩╝┴╚  ┴  ╩ ╩┴ ┴└─┘┴ ┴┴┘└┘└─┘ ")
+
+print (" [01]> Wifi-Hacker  ")
+print (" [02]> Wifi-Hacking ")
+print (" [03]> lazyaircrack ")
+print (" [04]> Install 	   ")
 print
-print " [00]> Exit 	   "
+print (" [00]> Exit 	   ")
 print
 Wifi = raw_input(" Wifi Hacking ==>> ")
 if Wifi == '01' or Wifi == '1':
@@ -27,6 +31,6 @@ elif Wifi == '00' or Wifi == '0':
 	os.system(' python2 alqueda.py ')
 
 else:
-      print "\nERROR: Wrong Input"
+      print ("\nERROR: Wrong Input")
       timeout(3)
       restart_program()
