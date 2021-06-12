@@ -2,18 +2,23 @@ import os, sys, time
 from time import sleep as timeout
 def restart_program():
 	os.system(' clear ')
-print                                                                                                                                            
-print " [01]> DDoS-Attack "
-print " [02]> UFONet			   "
-print " [03]> Raven-Storm "
-print " [04]> CC-attack   "
-print " [05]> Overload    "
-print " [06]> Install DDOS"
-print " [07]> DRAPE       "
+print (" ██████╗ ██████╗  ██████╗ ███████╗       █████╗ ████████╗████████╗ █████╗  ██████╗██╗  ██╗███████╗    ") 
+print (" ██╔══██╗██╔══██╗██╔═══██╗██╔════╝      ██╔══██╗╚══██╔══╝╚══██╔══╝██╔══██╗██╔════╝██║ ██╔╝██╔════╝    ") 
+print (" ██║  ██║██║  ██║██║   ██║███████╗█████╗███████║   ██║      ██║   ███████║██║     █████╔╝ ███████╗    ") 
+print (" ██║  ██║██║  ██║██║   ██║╚════██║╚════╝██╔══██║   ██║      ██║   ██╔══██║██║     ██╔═██╗ ╚════██║    ") 
+print (" ██████╔╝██████╔╝╚██████╔╝███████║      ██║  ██║   ██║      ██║   ██║  ██║╚██████╗██║  ██╗███████║    ") 
+print (" ╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝      ╚═╝  ╚═╝   ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝    ")                                                                                           
+time.sleep(2)
+print (" [01]> DDoS-Attack ")
+print (" [03]> Raven-Storm ")
+print (" [04]> CC-attack   ")
+print (" [05]> Overload    ")
+print (" [06]> Install DDOS")
+print (" [07]> DRAPE       ")
 print
-print " [00]> Exit 						 "
+print (" [00]> Exit 	  ")
 print
-bhydra = raw_input(" DDoS Console ==>> ")
+bhydra = input(" DDoS Console ==>> ")
 
 if bhydra == '01' or bhydra == '1':
 	os.system(' clear ')
@@ -41,6 +46,6 @@ elif bhydra == '07' or bhydra == '7':
 	os.system(' cd DRAPE && python3 drape.py ')
 
 else:
-	print "\n[!] ERROR : Wrong Input"
+	print (" \n[!] ERROR : Wrong Input ")
 	time.sleep(1)
 	restart_program()
