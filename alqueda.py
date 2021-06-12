@@ -59,6 +59,6 @@ elif A == '6' or A == '06':
   os.system(' clear ')
   os.system(' python3 Cam-Hacking.py ')
 else:
-      print ("\nERROR: Wrong Input")
+      print (" \nERROR: Wrong Input ")
       timeout(3)
       restart_program()
