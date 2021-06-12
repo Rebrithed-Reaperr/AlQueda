@@ -1,16 +1,13 @@
 import os, sys, time
 from time import sleep as timeout
 def restart_program():
-  os.system(' clear ')
-print
-print ("                                                                                                                           ")
+  os.system(' clear ')                                                                                                                        ")
 print (" ██████╗ ██████╗  ██████╗      ██╗███████╗ ██████╗████████╗     █████╗ ██╗      ██████╗ ██╗   ██╗███████╗██████╗  █████╗   ")
 print (" ██╔══██╗██╔══██╗██╔═══██╗     ██║██╔════╝██╔════╝╚══██╔══╝    ██╔══██╗██║     ██╔═══██╗██║   ██║██╔════╝██╔══██╗██╔══██╗  ")
 print (" ██████╔╝██████╔╝██║   ██║     ██║█████╗  ██║        ██║       ███████║██║     ██║   ██║██║   ██║█████╗  ██║  ██║███████║  ")
 print (" ██╔═══╝ ██╔══██╗██║   ██║██   ██║██╔══╝  ██║        ██║       ██╔══██║██║     ██║▄▄ ██║██║   ██║██╔══╝  ██║  ██║██╔══██║  ")
 print (" ██║     ██║  ██║╚██████╔╝╚█████╔╝███████╗╚██████╗   ██║       ██║  ██║███████╗╚██████╔╝╚██████╔╝███████╗██████╔╝██║  ██║  ")
 print (" ╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚════╝ ╚══════╝ ╚═════╝   ╚═╝       ╚═╝  ╚═╝╚══════╝ ╚══▀▀═╝  ╚═════╝ ╚══════╝╚═════╝ ╚═╝  ╚═╝  ")
-print ("
 time.sleep(2)
 print ("▄▄▄▄·  ▄· ▄▌     ▐ ▄       • ▌ ▄ ·. ▄▄▄ .▄▄▄   ▄▄· ▪  ▪     ▄▄▄ .▐▄• ▄ ▄▄▄ . ")
 print ("▐█ ▀█▪▐█▪██▌    •█▌▐█▪     ·██ ▐███▪▀▄.▀·▀▄ █·▐█ ▌▪██ ██    ▀▄.▀· █▌█▌▪▀▄.▀· ")
@@ -21,14 +18,14 @@ print (" Created By: Rebrithed-Reaperr ")
 print (" YouTube: BiggyGh0st           ")
 print (" Github: Rebrithed-Reaperr     ")
 print (" Instagram: pwn.doxgod         ")
-print
+
 print (" [1]> DDoS-Attacks            ")
 print (" [2]> Website-Attacks         ")
 print (" [3]> Tracking Skiddos        ")
 print (" [4]> Instagrams              ")
 print (" [5]> Wifi-Hacking            ")
 print (" [6]> Can-Hacking             ")
-print
+
 print (" [0]> Exit                    ")
 A = raw_input(" AlQueda ==>> ")
 
