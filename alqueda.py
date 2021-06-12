@@ -47,7 +47,7 @@ elif A == '4' or A == '04':
 
 elif A == '0' or A == '00':
   time.sleep(2)
-  print " Sorry to see you leave so soon :( "
+  print (" Sorry to see you leave so soon :( ")
   sys.exit()
 
 elif A == '5' or A == '05':
