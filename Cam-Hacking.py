@@ -26,3 +26,8 @@ elif Cam == '04' or Cam == '4':
 elif Cam == '00' or Cam == '0':
 	os.system(' clear ')
 	os.system(' python2 alqueda.py ')
+
+else:
+      print "\nERROR: Wrong Input"
+      timeout(3)
+      restart_program()
