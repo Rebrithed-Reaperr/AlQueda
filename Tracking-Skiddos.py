@@ -38,5 +38,5 @@ elif rebirthed == '04' or rebirthed == '4':
 	os.system(' cd SIGIT && bash install.sh && python3 sigit.py ')
 	
 else:
-      print (" \nERROR: Wrong Input")
+      print (" \nERROR: Wrong Input ")
       restart_program()
