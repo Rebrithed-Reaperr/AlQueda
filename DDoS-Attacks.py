@@ -15,6 +15,7 @@ print (" [04]> CC-attack   ")
 print (" [05]> Overload    ")
 print (" [06]> Install DDOS")
 print (" [07]> DRAPE       ")
+print (" [08]> MHDDoS 	   ")
 print
 print (" [00]> Exit 	  ")
 print
@@ -44,6 +45,9 @@ elif bhydra == '00' or bhydra == '0':
 elif bhydra == '07' or bhydra == '7':
 	os.system(' clear ')
 	os.system(' cd DRAPE && python3 drape.py ')
+elif bhydra == '08' or bhydra == '8':
+	os.system(' clear ')
+	os.system(' cd MHDDoS && pip3 install -r requirements.txt && python3 start.py ')
 
 else:
 	print (" \n[!] ERROR : Wrong Input ")
