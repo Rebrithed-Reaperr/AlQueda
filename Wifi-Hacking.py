@@ -25,3 +25,8 @@ elif Wifi == '04' or Wifi == '4':
 elif Wifi == '00' or Wifi == '0':
 	os.system(' clear ')
 	os.system(' python2 alqueda.py ')
+
+else:
+      print "\nERROR: Wrong Input"
+      timeout(3)
+      restart_program()
