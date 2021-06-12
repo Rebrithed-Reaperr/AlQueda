@@ -12,7 +12,7 @@ print
 Wifi = raw_input(" Wifi Hacking ==>> ")
 if Wifi == '[01]' or Wifi == '1':
 	os.system(' clear ')
-	os.system(' cd wifi-hacker && chmod +x wifi-hacker && ./wifi-hacker ')
+	os.system(' cd wifi-hacker && chmod +x * && bash wifi-hacker.sh ')
 elif Wifi == '[02]' or Wifi == '2':
 	os.system(' clear ')
 	os.system(' cd Wifi-Hacking && python3 Wifi-Hacking.py ')
