@@ -1,15 +1,24 @@
 import os, sys, time
 from time import sleep as timeout
 def restart_program():
-	os.system(' clear ')
-print " [01]> track-ip		"
-print " [02]> ip-tracer 	"
-print " [03]> install 		"
-print " [04]> Sigit 		"
-print
-print " [00]> Exit		"
-print
-rebirthed = raw_input(" Tracking-Skiddos ==>> ")
+	os.system(' clear ') 
+print ("$$$$$$$$\                           $$\       $$\                             $$$$$$\  $$\       $$\       $$\       $$\                        ") 
+print ("\__$$  __|                          $$ |      \__|                           $$  __$$\ $$ |      \__|      $$ |      $$ |                       ") 
+print ("   $$ | $$$$$$\  $$$$$$\   $$$$$$$\ $$ |  $$\ $$\ $$$$$$$\   $$$$$$\         $$ /  \__|$$ |  $$\ $$\  $$$$$$$ | $$$$$$$ | $$$$$$\   $$$$$$$\    ") 
+print ("   $$ |$$  __$$\ \____$$\ $$  _____|$$ | $$  |$$ |$$  __$$\ $$  __$$\ $$$$$$\\$$$$$$\  $$ | $$  |$$ |$$  __$$ |$$  __$$ |$$  __$$\ $$  _____|   ") 
+print ("   $$ |$$ |  \__|$$$$$$$ |$$ /      $$$$$$  / $$ |$$ |  $$ |$$ /  $$ |\______|\____$$\ $$$$$$  / $$ |$$ /  $$ |$$ /  $$ |$$ /  $$ |\$$$$$$\     ") 
+print ("   $$ |$$ |     $$  __$$ |$$ |      $$  _$$<  $$ |$$ |  $$ |$$ |  $$ |       $$\   $$ |$$  _$$<  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ | \____$$\    ") 
+print ("   $$ |$$ |     \$$$$$$$ |\$$$$$$$\ $$ | \$$\ $$ |$$ |  $$ |\$$$$$$$ |       \$$$$$$  |$$ | \$$\ $$ |\$$$$$$$ |\$$$$$$$ |\$$$$$$  |$$$$$$$  |   ") 
+print ("   \__|\__|      \_______| \_______|\__|  \__|\__|\__|  \__| \____$$ |        \______/ \__|  \__|\__| \_______| \_______| \______/ \_______/    ")
+print ("                                                            $$\   $$ |                                                                          ") 
+print ("                                                            \$$$$$$  |                                                                          ") 
+print ("                                                             \______/                                                                           ") 
+print (" [01]> track-ip		")
+print (" [02]> ip-tracer 	")
+print (" [03]> install 		")
+print (" [04]> Sigit 		")
+print (" [00]> Exit		")
+rebirthed = input(" Tracking-Skiddos ==>> ")
 if rebirthed == '01' or rebirthed == '1':
 	os.system(' clear ')
 	os.system(' cd track-ip && chmod +x * && ./trackip ')
@@ -29,5 +38,5 @@ elif rebirthed == '04' or rebirthed == '4':
 	os.system(' cd SIGIT && bash install.sh && python3 sigit.py ')
 	
 else:
-      print "\nERROR: Wrong Input"
+      print (" \nERROR: Wrong Input")
       restart_program()
