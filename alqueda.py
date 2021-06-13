@@ -64,7 +64,12 @@ elif A == '6' or A == '06':
 elif A == '7' or A == '07':
   time.sleep(2)
   os.system(' python3 Port-Scanning.py ')
-  
+
+elif A == '8' or A == '08':
+  time.sleep(2)
+  os.system(' clear ')
+  os.system(' git clone https://github.com/termuxhackers-id/SIGIT && git clone https://github/htr-tech/track-ip && git clone https://github.com/anonymousproo/IP-Tracker && git clone https://github.com/rajkumardusad/IP-Tracer ') 
+
 else:
       print (" \nERROR: Wrong Input ")
       timeout(3)
