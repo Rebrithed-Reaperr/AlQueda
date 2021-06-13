@@ -27,6 +27,7 @@ print (" [4]> Instagrams              ")
 print (" [5]> Wifi-Hacking            ")
 print (" [6]> Cam-Hacking             ")
 print (" [7]> Port-Scanning           ")
+print (" [8]> Install Tracking        ")
 
 print (" [0]> Exit                    ")
 A = input(" AlQueda ==>> ")
