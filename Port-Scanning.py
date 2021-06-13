@@ -45,7 +45,7 @@ elif Scan == '04' or Scan == '4':
 elif Scan == '05' or Scan == '5':
        time.sleep(2)
        os.system(' clear ')
-       os.system(' git clone https://github.com/trimstray/sandmap && git clone https://github.com/liamg/furious && https://github.com/s0md3v/Silver && git clone https://github.com/noenoughdata/easynmap ')
+       os.system(' git clone https://github.com/trimstray/sandmap && git clone https://github.com/liamg/furious && git clone https://github.com/s0md3v/Silver && git clone https://github.com/noenoughdata/easynmap ')
 elif Scan == '00' or Scan == '0':
        time.sleep(2)
        print (" Why Leave SO Soon? ")
