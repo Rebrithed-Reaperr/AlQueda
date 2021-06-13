@@ -29,7 +29,7 @@ elif rebirthed == '02' or rebirthed == '2':
 
 elif rebirthed == '03' or rebirthed == '3':
 	os.system(' clear ')
-        os.system(' git clone https://github.com/termuxhackers-id/SIGIT && git clone https://github.com/htr-tech/track-ip && git clone https://github.com/anonymousproo/IP-Tracker && git clone https://github.com/rajkumardusad/IP-Tracer && python2 Tracking-Skiddos.py ')
+        os.system(' git clone https://github.com/termuxhackers-id/SIGIT && git clone https://github.com/htr-tech/track-ip && git clone https://github.com/anonymousproo/IP-Tracker && git clone https://github.com/rajkumardusad/IP-Tracer && python3 Tracking-Skiddos.py ')
 
 elif rebirthed == '00' or rebirthed == '0':
 	os.system(' python2 alqueda.py ')
