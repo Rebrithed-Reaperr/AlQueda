@@ -26,6 +26,7 @@ print (" [3]> Tracking Skiddos        ")
 print (" [4]> Instagrams              ")
 print (" [5]> Wifi-Hacking            ")
 print (" [6]> Cam-Hacking             ")
+print (" [7]> Port-Scanning           ")
 
 print (" [0]> Exit                    ")
 A = input(" AlQueda ==>> ")
@@ -58,6 +59,11 @@ elif A == '5' or A == '05':
 elif A == '6' or A == '06':
   os.system(' clear ')
   os.system(' python3 Cam-Hacking.py ')
+
+elif A == '7' or A == '07':
+  time.sleep(2)
+  os.system(' python3 Port-Scanning.py ')
+  
 else:
       print (" \nERROR: Wrong Input ")
       timeout(3)
