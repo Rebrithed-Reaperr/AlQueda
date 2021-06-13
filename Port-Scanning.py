@@ -9,6 +9,7 @@ print (" _/        _/    _/  _/          _/                        _/  _/       
 print ("_/          _/_/    _/            _/_/              _/_/_/      _/_/_/    _/_/_/  _/    _/  _/    _/  _/  _/    _/    _/_/_/     ")   
 print ("                                                                                                                         _/      ")    
 print ("                                                                                                                      _/_/       ")       
+os.system(' clear ')
 time.sleep(2) 
 print (" .d8888.  .o88b.  .d8b.  d8b   db      d888888b db   db d88888b .d8888. d88888b      .d8888. db   dD d888888b d8888b. .d8888. ") 
 print (" 88'  YP d8P  Y8 d8' `8b 888o  88      `~~88~~' 88   88 88'     88'  YP 88'          88'  YP 88 ,8P'   `88'   88  `8D 88'  YP ") 
