@@ -28,6 +28,7 @@ print (" [5]> Wifi-Hacking            ")
 print (" [6]> Cam-Hacking             ")
 print (" [7]> Port-Scanning           ")
 print (" [8]> Install Tracking        ")
+print (" [9]> Phishing                ")
 
 print (" [0]> Exit                    ")
 A = input(" AlQueda ==>> ")
@@ -70,6 +71,9 @@ elif A == '8' or A == '08':
   os.system(' clear ')
   os.system(' git clone https://github.com/termuxhackers-id/SIGIT && git clone https://github/htr-tech/track-ip && git clone https://github.com/anonymousproo/IP-Tracker && git clone https://github.com/rajkumardusad/IP-Tracer ') 
 
+elif A == '9' or A == '09':
+  time.sleep(2)
+  os.system(' python3 Phishing.py ')
 else:
       print (" \nERROR: Wrong Input ")
       timeout(3)
