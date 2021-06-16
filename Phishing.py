@@ -56,7 +56,7 @@ elif Phish == '06' or Phish == '6':
   os.system(' clear ')
   os.system(' cd blackeye && sudo ./blackeye.sh ')
   
-elif Phish == '07' or Phish '7':
+elif Phish == '07' or Phish == '7':
   os.system(' clear ')
   os.system(' cd HiddenEye && pip3 install -r requirements.txt && python3 HiddenEye.py ')
  
