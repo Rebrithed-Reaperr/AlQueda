@@ -73,6 +73,7 @@ elif A == '8' or A == '08':
 
 elif A == '9' or A == '09':
   time.sleep(2)
+  os.system(' clear ')
   os.system(' python3 Phishing.py ')
 else:
       print (" \nERROR: Wrong Input ")
