@@ -29,6 +29,7 @@ print (" [6]> Cam-Hacking             ")
 print (" [7]> Port-Scanning           ")
 print (" [8]> Install Tracking        ")
 print (" [9]> Phishing                ")
+print (" [10]> Lazy                   ")
 
 print (" [0]> Exit                    ")
 A = input(" AlQueda ==>> ")
@@ -75,6 +76,12 @@ elif A == '9' or A == '09':
   time.sleep(2)
   os.system(' clear ')
   os.system(' python3 Phishing.py ')
+
+elif A == '10' or A == '010':
+  time.sleep(2)
+  os.system(' clear ')
+  os.system(' python3 lazy.py ')
+  
 else:
       print (" \nERROR: Wrong Input ")
       timeout(3)
